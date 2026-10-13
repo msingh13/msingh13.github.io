@@ -3,3 +3,6 @@
 
 /* Red accent theme */
 :root{--bg:#100d0f;--panel:#1a1518;--ink:#f3ecee;--muted:#a8969d;--lime:#ff555f;--line:#36292e}.orbital{background:radial-gradient(ellipse,#ff555f20,transparent 64%)}
+
+
+.builder-visual{display:grid;gap:28px;min-width:0}.builder-portrait{margin:0;max-width:400px;background:#171918;padding:12px;border:1px solid #3a3d39;border-radius:12px;box-shadow:12px 12px 0 #e8e5db}.builder-portrait img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:6px}.builder-portrait figcaption{display:flex;justify-content:space-between;gap:12px;color:#e9e7dd;font-size:9px;letter-spacing:1px;padding:15px 3px 5px}.builder-portrait figcaption span:last-child{color:#b3baad;letter-spacing:0}.builder-visual .principles{gap:0}@media(max-width:720px){.builder-portrait{max-width:360px;margin:0 auto;width:100%}.builder-visual{margin-top:20px}.builder-portrait figcaption{font-size:8px}}
