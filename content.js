@@ -1,9 +1,9 @@
 // Edit this file to update your portfolio. Links are hidden until you add them.
 window.PORTFOLIO = {
- name: 'Shawn', brand: 'SHAWN LABS', role: 'Software engineering · AI · Games',
- headline: 'Ideas into systems.\nOne build at a time.',
- intro: 'A personal lab for intelligent software, useful products, and experimental games. Exploring what happens when engineering meets curiosity.',
- about: 'I’m interested in building software that people can actually use — from AI assistants and student tools to sports analytics and game systems. Shawn Labs is where I turn those ideas into focused, testable projects.',
+ name: 'Shawn', brand: 'SHAWN LABS', role: 'Software engineering student · Sports, training & interactive systems',
+ headline: 'Built around\nwhat moves me.',
+ intro: 'I’m Shawn, a software engineering student turning my interests in sports, jiu-jitsu, and games into software I want to use. This is where I build, test, and keep improving.',
+ about: 'The projects here start with things I care about: understanding a matchup, making the most of a training session, or figuring out how a game world responds. I’m learning by building complete, focused experiences, then being clear about what works and what still needs work.',
  email: 'mandeep.shawn.singh@gmail.com', linkedin: 'https://www.linkedin.com/in/shawn-singh-566507217/',
  projects: [
  {name:'SHAWN OS',category:'AI',status:'Private project',number:'01',description:'A personal operating system for university, projects, and everyday life.',detail:'Start with a planner and assignment tracker. Expand into a knowledge vault, semantic search, and an AI assistant.',features:['University planner','Knowledge vault','AI assistant'],visual:'os'},
@@ -17,3 +17,7 @@ window.PORTFOLIO = {
  backlog: ['AI Discord Bot','AI Document Analyzer / RAG','AI Interview Platform','AI Receptionist','AI Sales Agent','Debt + Budget AI Advisor','Restaurant AI Assistant','Autonomous Research Agent','AI Coding Assistant','Computer Vision App','Alpha Bros','Campus Events Platform','Pokémon 1v1 Battle App','Pick a Place','AI Personal Assistant']
 };
 
+
+// Lead with the projects closest to my interests.
+const projectOrder=['Matcraft','FlashyBets','Blackout Prototype','Forge','Study Doomscroll','AI Support Agent','SHAWN OS'];
+window.PORTFOLIO.projects.sort((a,b)=>projectOrder.indexOf(a.name)-projectOrder.indexOf(b.name));
