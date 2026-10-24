@@ -1,13 +1,13 @@
 // Edit this file to update your portfolio. Links are hidden until you add them.
 window.PORTFOLIO = {
- name: 'Shawn', brand: 'SHAWN LABS', role: 'Software engineering student · Sports, training & interactive systems',
+ name: 'Shawn', brand: 'SHAWN LABS', role: 'Software engineering student · Collaboration, sports & training',
  headline: 'Built around\nwhat moves me.',
- intro: 'I’m Shawn, a software engineering student turning my interests in sports, jiu-jitsu, and games into software I want to use. This is where I build, test, and keep improving.',
- about: 'The projects here start with things I care about: understanding a matchup, making the most of a training session, or figuring out how a game world responds. I’m learning by building complete, focused experiences, then being clear about what works and what still needs work.',
+ intro: 'I’m Shawn, a software engineering student turning my interests in sports, jiu-jitsu, and bringing people together into software I want to use. This is where I build, test, and keep improving.',
+ about: 'The projects here start with things I care about: understanding a matchup, making the most of a training session, or finding the right people to build with. I’m learning by building complete, focused experiences, then being clear about what works and what still needs work.',
  email: 'mandeep.shawn.singh@gmail.com', linkedin: 'https://www.linkedin.com/in/shawn-singh-566507217/',
  projects: [
  {name:'SHAWN OS',category:'AI',status:'Private project',number:'01',description:'A personal operating system for university, projects, and everyday life.',detail:'Start with a planner and assignment tracker. Expand into a knowledge vault, semantic search, and an AI assistant.',features:['University planner','Knowledge vault','AI assistant'],visual:'os'},
- {name:'Forge',demo:'https://msingh13.github.io/forge.html',category:'Web',status:'Interactive demo',number:'02',description:'Find your next collaborator. Build something together.',detail:'A student collaboration platform for sharing ideas, discovering skills, and forming project teams. The initial concept focuses on Concordia and McGill communities.',features:['Project discovery','Skill matching','Team requests'],visual:'forge'},
+ {name:'Forge',demo:'https://msingh13.github.io/forge.html',category:'Web',status:'Interactive demo',number:'02',description:'A place for students to find collaborators and turn project ideas into a team.',detail:'A student collaboration platform for sharing ideas, discovering skills, and forming project teams. The initial concept focuses on Concordia and McGill communities.',features:['Project discovery','Skill matching','Team requests'],visual:'forge'},
  {name:'Study Doomscroll',demo:'https://msingh13.github.io/study-doomscroll.html',category:'AI',status:'Interactive demo',number:'03',description:'Turn the scrolling habit into a learning habit.',detail:'An interactive study feed with short explanations, questions, and flashcards. Start with one course before adding document ingestion and adaptive review.',features:['Study feed','Flashcards','Spaced repetition'],visual:'study'},
  {name:'FlashyBets',category:'Data',status:'MVP',number:'04',description:'Your daily game plan. NHL, NBA and NFL probabilities, game context and an honest tracker.',detail:'A working sports analytics MVP with sport-specific mathematical baselines, moneyline and totals probabilities, injury and starter checks, travel and weather context, and an automatic model record, daily ML favorite cards and guarded probability-calibration updates. The GitHub Pages edition publishes scheduled data and preserves its model record through GitHub Actions. Predictions remain experimental until validated.',features:['NHL / NBA / NFL boards','Game context & probability comparison','Daily favorites & model record'],visual:'sports',demo:'https://msingh13.github.io/FlashyBets/',github:'https://github.com/msingh13/FlashyBets'},
  {name:'AI Support Agent',demo:'https://msingh13.github.io/support-agent.html',category:'AI',status:'Interactive demo',number:'05',description:'Useful answers. A clearer path from inquiry to booking.',detail:'A focused assistant for local businesses: approved FAQs, lead capture, booking requests, and human escalation. The first milestone is a small, useful pilot.',features:['Knowledge retrieval','Lead capture','Human handoff'],visual:'support'},
@@ -19,5 +19,6 @@ window.PORTFOLIO = {
 
 
 // Lead with the projects closest to my interests.
-const projectOrder=['Matcraft','FlashyBets','Blackout Prototype','Forge','Study Doomscroll','AI Support Agent','SHAWN OS'];
+window.PORTFOLIO.projects=window.PORTFOLIO.projects.filter(project=>project.name!=='Blackout Prototype');
+const projectOrder=['Forge','Matcraft','FlashyBets','Study Doomscroll','AI Support Agent','SHAWN OS'];
 window.PORTFOLIO.projects.sort((a,b)=>projectOrder.indexOf(a.name)-projectOrder.indexOf(b.name));
