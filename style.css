@@ -17,3 +17,5 @@
 @media(max-width:1050px){.focus-top{display:block;line-height:1.8}.focus-top span:last-child{display:none}.focus-row{padding:25px 20px;gap:14px}.focus-row h2{font-size:20px}}
 @media(max-width:700px){.hero{padding-top:48px;gap:36px}.hero h1{font-size:46px;letter-spacing:-2px}.focus-panel{margin-bottom:12px}.focus-top{display:flex}.focus-row{padding:23px}.focus-row h2{font-size:22px}.hero-note{margin-top:28px}.ticker{font-size:8px;line-height:1.8}.interest-tags{margin-bottom:28px}}
 @media(prefers-reduced-motion:reduce){.focus-row,.project{transition:none}}
+
+.project-art.campus{background:linear-gradient(140deg,#183f40,#14252c);color:#d3ede3}.campus-art{width:78%;text-align:left}.campus-art small{font-size:8px;letter-spacing:2px;color:#90c3b5}.campus-art strong{display:block;font-family:'Space Grotesk',sans-serif;font-size:32px;line-height:1.05;letter-spacing:-1px;margin:20px 0}.campus-art span{display:block;font-size:8px;letter-spacing:1px;color:#aacfc3}.campus-art b{display:block;font-size:7px;letter-spacing:1.3px;font-weight:400;margin-top:25px;color:#90c3b5}
