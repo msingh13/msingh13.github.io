@@ -1,9 +1,9 @@
 // Edit this file to update your portfolio. Links are hidden until you add them.
 window.PORTFOLIO = {
- name: 'Shawn', brand: 'SHAWN LABS', role: 'Software engineering student · Collaboration, sports & training',
- headline: 'Built around\nwhat moves me.',
- intro: 'I’m Shawn, a software engineering student turning my interests in sports, jiu-jitsu, and bringing people together into software I want to use. This is where I build, test, and keep improving.',
- about: 'The projects here start with things I care about: understanding a matchup, making the most of a training session, or finding the right people to build with. I’m learning by building complete, focused experiences, then being clear about what works and what still needs work.',
+ name: 'Shawn', brand: 'SHAWN LABS', role: 'Software engineering student · Learning quantitative research',
+ headline: 'Probability. Code.\nBetter questions.',
+ intro: 'I’m Shawn, a software engineering student starting my journey into quantitative trading. I build tools to explore probability, test ideas against data, and understand uncertainty. FlashyBets is my main learning project.',
+ about: 'I’m learning the mathematics and engineering behind quantitative research: probability, statistics, data pipelines, and honest evaluation. FlashyBets gives me a place to work with forecasts and real outcomes; Forge explores collaboration, and Shawn OS is my private workspace. I’m at the beginning of this path, documenting what I build and what I still need to learn.',
  email: 'mandeep.shawn.singh@gmail.com', linkedin: 'https://www.linkedin.com/in/shawn-singh-566507217/',
  projects: [
  {name:'SHAWN OS',category:'AI',status:'Private project',number:'01',description:'A personal operating system for university, projects, and everyday life.',detail:'Start with a planner and assignment tracker. Expand into a knowledge vault, semantic search, and an AI assistant.',features:['University planner','Knowledge vault','AI assistant'],visual:'os'},
@@ -25,5 +25,5 @@ window.PORTFOLIO.projects.push({name:'Campus Events & Ticketing',category:'Web',
 window.PORTFOLIO.projects.push({name:'Silt Type',category:'Games',status:'Playable browser game',number:'09',description:'A soothing ASMR typing game. Warm keys, gentle words, and a rhythm all your own.',detail:'An ASMR typing studio with warm mechanical keyboard sounds, flowing word prompts, 60-second rounds and an endless zen mode. Keep your rhythm and save a personal best locally.',features:['Touch, mouse & keyboard','3D-style keys & ASMR typing','Local high score & endless zen'],visual:'silt',demo:'https://msingh13.github.io/Silt/'});
 window.PORTFOLIO.projects.push({name:'Silt Sand',category:'Games',status:'Playable browser game',description:'Carve through textured sand to uncover flowing mineral patterns.',detail:'A relaxed sand-carving game with three tools, optional scraping audio and a collection saved in this browser.',features:['Touch, mouse & keyboard','Three carving tools','Local mineral collection'],visual:'silt',demo:'https://msingh13.github.io/SiltSand/'});
 window.PORTFOLIO.projects.push({name:'Silt Pop',category:'Games',status:'Playable browser game',description:'Pop glossy mineral switches, build a combo and beat your personal best.',detail:'A tactile ASMR clicker with changing boards, synthesized pops, 45-second rounds and a locally saved high score.',features:['3D-style mineral switches','Rhythm combos','Local high score'],visual:'siltpop',demo:'https://msingh13.github.io/SiltPop/'});
-const projectOrder=['Forge','Campus Events & Ticketing','Matcraft','FlashyBets','Silt Type','Silt Pop','Silt Sand','Blackout Prototype','Study Doomscroll','AI Support Agent','SHAWN OS'];
+const projectOrder=['FlashyBets','Forge','SHAWN OS','Campus Events & Ticketing','Matcraft','Silt Type','Silt Pop','Silt Sand','Blackout Prototype','Study Doomscroll','AI Support Agent'];
 window.PORTFOLIO.projects.sort((a,b)=>projectOrder.indexOf(a.name)-projectOrder.indexOf(b.name));
