@@ -19,3 +19,6 @@
 @media(prefers-reduced-motion:reduce){.focus-row,.project{transition:none}}
 
 .project-art.campus{background:linear-gradient(140deg,#183f40,#14252c);color:#d3ede3}.campus-art{width:78%;text-align:left}.campus-art small{font-size:8px;letter-spacing:2px;color:#90c3b5}.campus-art strong{display:block;font-family:'Space Grotesk',sans-serif;font-size:32px;line-height:1.05;letter-spacing:-1px;margin:20px 0}.campus-art span{display:block;font-size:8px;letter-spacing:1px;color:#aacfc3}.campus-art b{display:block;font-size:7px;letter-spacing:1.3px;font-weight:400;margin-top:25px;color:#90c3b5}
+
+/* Silt: tactile browser game */
+.project-art.silt{background:#10231e;color:#dce8d9}.silt-art{position:relative;width:100%;height:100%;padding:26px;overflow:hidden}.silt-art small,.silt-art span{position:relative;z-index:2;display:block;font-size:9px;letter-spacing:2px}.silt-art strong{position:absolute;bottom:40px;left:28px;font-size:64px;font-weight:400;letter-spacing:-4px}.silt-art span{position:absolute;bottom:22px}.silt-mineral{position:absolute;width:230px;height:230px;right:-20px;top:10px;border-radius:40% 65% 50% 40%;transform:rotate(-25deg);background:repeating-radial-gradient(ellipse at 20% 10%,#bfcc97 0 3px,#648d78 4px 8px,#203e36 9px 11px);box-shadow:0 18px 45px #0008}.silt .concept-label{display:none}
